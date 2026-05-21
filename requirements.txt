@@ -1,0 +1,12 @@
+numpy==2.4.0
+matplotlib==3.10.8
+torch==2.11.0.dev20251219+cu128
+minari==0.5.3
+gymnasium==1.3.0
+gymnasium-robotics==1.4.2
+ImageIO==2.37.2
+imageio-ffmpeg==0.6.0
+ipython==9.7.0
+jupyter==1.0.0
+notebook==7.4.7
+ipykernel==7.1.0

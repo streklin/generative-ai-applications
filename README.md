@@ -23,8 +23,8 @@ Training a sequence model purely on offline data often leads to severe overfitti
 ## Architecture
 * **Backbone:** GPT-style Transformer
 * **Sequence Input:** Triplets of `(Return-to-Go, State, Action)`
-* **Context Window:** 60 tokens (20 timesteps)
-* **Embedding Dimension:** 128 (3 layers, 8 attention heads)
+* **Context Window:** 30 tokens (10 timesteps)
+* **Embedding Dimension:** 64 (3 layers, 4 attention heads)
 * **Action Space:** 30 Continuous Dimensions (Scaled to `[-1, 1]`)
 * **Observation Space:** 39 Dimensions (Includes 9 dimensions of spatial relational coordinates)
 
